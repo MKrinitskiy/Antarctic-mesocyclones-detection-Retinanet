@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" autoUpload="On explicit save action" serverName="mk@192.168.192.42:2223" autoUploadExternalChanges="true">
+    <serverData>
+      <paths name="mk@192.168.192.42:2223">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/app/Chernokulskiy/detection_retinanet" local="$PROJECT_DIR$" web="" />
+          </mappings>
+          <excludedPaths>
+            <excludedPath path="/app/Chernokulskiy/_backups" />
+            <excludedPath local="true" path="$PROJECT_DIR$/snapshots" />
+            <excludedPath local="true" path="$PROJECT_DIR$/logs" />
+          </excludedPaths>
+        </serverdata>
+      </paths>
+      <paths name="mk@192.168.192.43:2223">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/app/Chernokulsky" local="$PROJECT_DIR$" />
+          </mappings>
+          <excludedPaths>
+            <excludedPath path="/app/Chernokulsky/weights" />
+            <excludedPath local="true" path="$PROJECT_DIR$/logs" />
+            <excludedPath local="true" path="$PROJECT_DIR$/snapshots" />
+          </excludedPaths>
+        </serverdata>
+      </paths>
+    </serverData>
+    <option name="myAutoUpload" value="ON_EXPLICIT_SAVE" />
+  </component>
+</project>
